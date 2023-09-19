@@ -1,7 +1,7 @@
-transformers 
+transformers #hugging face API
 transformers[sentencepiece]
 datasets
-sacrebleu 
+sacrebleu # this library is requried for row metrics (evaluation metrics)
 rouge_score
 py7zr
 pandas
@@ -9,7 +9,7 @@ nltk
 tqdm
 PyYAML
 matplotlib
-torch 
+torch # this can be installed as GPU version if the system contains GPU... pytorch.org
 notebook
 boto3
 mypy-boto3-s3
@@ -18,4 +18,4 @@ ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
--e . 
+-e . # installs setup.py(where logic of local package installation code is written)
